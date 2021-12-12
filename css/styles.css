@@ -38,22 +38,13 @@ body {
 }
 .container {
   width: 1200px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 /*-----------header------------*/
 
-.header {
-  background-color: #ffffff;
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
 .header-section {
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
   background: #ffffff;
   margin: 0 auto;
   align-items: center;
@@ -65,6 +56,16 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
+.header-item-st {
+  margin-right: 45px;
+}
+.header-item-potfolio {
+  margin-right: 55px;
+}
+.mail {
+  margin-right: 50px;
+}
+
 .header-mail {
   font-weight: 500;
   font-size: 14px;
@@ -73,9 +74,13 @@ body {
   color: #757575;
 }
 .web-blue {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   color: #2196f3;
 }
 .studio-black {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   color: #212121;
 }
 
@@ -84,6 +89,8 @@ body {
   font-weight: bold;
   font-style: normal;
   margin-right: 93px;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 .header .container {
   display: flex;
@@ -105,6 +112,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-top: 9px;
 }
 .menu-links {
   font-weight: normal;
@@ -112,8 +120,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 
 .menu-links .link:hover,
@@ -139,7 +145,6 @@ body {
   color: #ffffff;
   max-width: 696px;
   margin: 0 auto;
-  max-width: 696px;
   padding-top: 195px;
 }
 
@@ -167,7 +172,6 @@ body {
 .backlight-button {
   font-family: Roboto;
   font-weight: 500;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
@@ -175,11 +179,9 @@ body {
   color: #212121;
 }
 .portfolio {
-  height: 1360px;
-  left: 200px;
-  top: 186px;
   margin: 0 auto;
   padding-bottom: 82px;
+  align-items: center;
 }
 .keys {
   font-family: Roboto;
@@ -187,10 +189,15 @@ body {
   font-size: 16px;
   line-height: 1.62;
   color: #f5f4fa;
-  text-align: center;
   display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 50px;
+  align-items: center;
+}
+
+.keys-button {
+  margin-right: 8 px;
+}
+.keys-portfolio {
+  margin-bottom: 34px;
 }
 .keys .backlight-button :focus {
   color: #2196f3;
@@ -204,6 +211,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+
 /*------------ Внимание к деталям ----------------*/
 .about {
   padding-top: 89px;
@@ -266,9 +274,9 @@ body {
   height: 648px;
   border: 1px solid #000000;
   box-sizing: border-box;
-  width: 1600px;
+  /* width: 1600px;
   left: 0px;
-  top: 1449px;
+  top: 1449px; */
   margin: 0 auto;
 }
 
@@ -283,10 +291,6 @@ body {
   margin-bottom: 50px;
 }
 .command-heading-ul {
-  width: 1170px;
-  height: 368px;
-  left: 215px;
-  top: 1635px;
   display: flex;
   margin-right: 30px;
 }
@@ -300,12 +304,8 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   margin-right: 30px;
-  margin-bottom: 94px;
 }
-/* width: 1600px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;*/
+
 .command-profession {
   font-size: 16px;
   line-height: 1.18;
@@ -346,39 +346,45 @@ body {
 }
 .web-blue,
 .studio-wiete,
-.web-blue {
+.studio-black {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.portfolio-ul {
-  width: 370px;
-  height: 404px;
-  left: 1000px;
-  top: 274px;
+.portfolio-li:nth-child(3n) {
+  margin-right: 0;
 }
+
 .portfolio-container {
-  width: 1170px;
-  height: 1360px;
   padding-top: 106px;
   padding-bottom: 82px;
   margin: 0 auto;
 }
 /* ---------Подвал-------- */
+
+.menu-links-footer {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-top: 9px;
+}
+.footer-container {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.menu-links-footer .link:hover,
+.menu-links-footer .link:focus {
+  color: #2196f3;
+}
+
 .footer-section {
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
   background: #2f303a;
   margin: 0 auto;
 }
-.header-logo-footer {
-  margin-top: 60px;
-  margin-bottom: 20px;
-  margin-left: 215;
-}
+
 .studio-wiete {
   color: #ffffff;
 }
@@ -388,12 +394,9 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
-  margin-bottom: 9px;
 }
-.footer-container {
-  padding-top: 20px;
-  padding-bottom: 60px;
-}
-.menu-links {
-  margin-bottom: 9px;
+.header-logo-footer {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
