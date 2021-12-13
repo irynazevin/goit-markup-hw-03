@@ -268,7 +268,7 @@ body {
 .command-section {
   background: #f5f4fa;
   height: 648px;
-  /* border: 1px solid #000000; */
+
   margin: 0 auto;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -293,9 +293,9 @@ body {
   left: 215px;
   top: 1635px;
   background: #ffffff;
-  /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2); */
-  /* border-radius: 0px 0px 4px 4px; */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
   margin-right: 30px;
 }
 
